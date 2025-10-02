@@ -5,6 +5,6 @@ const { chromium } = require('playwright');
   const page = await browser.newPage();
   await page.goto('https://novastrid.com');
   console.log("Page title:", await page.title());
-  await browser.close();
-  console.log("Browser closed.");
+ // await browser.close();
+ // console.log("Browser closed.");
 })();
